@@ -12,8 +12,15 @@ dist
 dist-ssr
 *.local
 
+# Vite build/optimizer cache (environment-aware, since Vite 8)
+.vite
+
 # TanStack Router auto-generated route tree
 src/routeTree.gen.ts
+
+# PR review artifacts (gf-pr-review skill output)
+pr-review-*.md
+pr-review-*.json
 
 # Editor directories and files
 .vscode/*
